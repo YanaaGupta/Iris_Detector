@@ -1,0 +1,34 @@
+* NOTE :
+Ensure you are using the correct Python interpreter in VSCode that has the required packages installed.
+
+* EXPLANATION OF STEPS :
+
+1. Loading and Exploring the Dataset:
+The dataset is loaded from the UCI repository and displayed.
+
+2. Preprocessing:
+The species column is converted to numeric values.
+
+3. Feature and Target Separation:
+Features (X) and the target variable (y) are separated.
+
+4. Standardizing Features:
+Features are standardized using StandardScaler.
+
+5. Data Splitting:
+Data is split into training and testing sets.
+
+6. Model Training:
+A Logistic Regression model is trained on the training data.
+
+7. Model Evaluation:
+The model is evaluated on the test set, and accuracy and classification report are printed.
+
+8. Making Predictions:
+A new sample is used to make predictions with the trained model.
+
+9. Saving the Model:
+The trained model and scaler are saved using joblib.
+
+10. Loading and Using the Model:
+The saved model and scaler are loaded, and a prediction is made with the loaded model to ensure it works.
